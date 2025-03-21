@@ -1,5 +1,5 @@
 apiVersion: v2
-name: vcluster-rancher-op
+name: vcluster-rancher-operator
 description: Helm chart for vCluster Rancher Operator
 
 type: application
