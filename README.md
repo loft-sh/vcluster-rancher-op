@@ -31,6 +31,8 @@ To install vCluster Rancher Operator, you can add the loft repository to Rancher
 
 Once the operator is installed, all vClusters deployed in any downstream cluster in rancher will cause a corresponding Rancher cluster to be created, the vCluster to connect to the corresponding Rancher cluster, and cluster owners added.
 
+Please note that this plugin is not compatible with the [original vCluster Rancher Integration](https://www.vcluster.com/docs/platform/integrations/rancher/rancher-integration). 
+
 ## Uninstall
 1. Select the local cluster in the Rancher clusters overview page.
 2. In the sidebar, navigate to "Apps" -> "Installed Apps".
